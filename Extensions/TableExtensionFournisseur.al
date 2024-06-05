@@ -11,9 +11,8 @@ tableextension 50011 TableExtensionFournisseur extends Vendor
         }
 
         // Champ pour les Incoterms
-        field(50001; "Incoterm"; Option)
+        field(50001; "Incoterm"; Enum "IncotermEnum")
         {
-            OptionMembers = "EXW","FCA","CPT","CIP","DAP","DPU","DDP","FAS","FOB","CFR","CIF"; // Liste des options pour les Incoterms
             DataClassification = OrganizationIdentifiableInformation; // Classification des données comme informations identifiables de l'organisation
             Caption = 'Incoterms'; // Légende pour le champ
             Description = 'INCOTERM LN 05/06/24 REV24'; // Description du champ
