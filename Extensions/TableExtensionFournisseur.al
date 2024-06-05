@@ -1,4 +1,4 @@
-tableextension 50050 TableExtensionFournisseur extends Vendor
+tableextension 50011 TableExtensionFournisseur extends Vendor
 {
     fields
     {
